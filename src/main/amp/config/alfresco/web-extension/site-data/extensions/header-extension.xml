@@ -1,0 +1,30 @@
+<extension>
+    <modules>
+        <module>
+            <id>Header Logo Link Extensions</id>
+            <version>1.0</version>
+            <auto-deploy>true</auto-deploy>
+
+            <customizations>
+                <customization>
+                    <targetPackageRoot>org.alfresco.share.header
+                    </targetPackageRoot>
+                    <sourcePackageRoot>dk.magenta.header</sourcePackageRoot>
+                </customization>
+            </customizations>
+
+            <configurations>
+                <config evaluator="string-compare" condition="WebFramework" replace="false">
+                    <web-framework>
+                        <dojo-pages>
+                            <packages>
+                                <package name="magenta" location="js/dk/magenta"/>
+                            </packages>
+                        </dojo-pages>
+                    </web-framework>
+                </config>
+            </configurations>
+        </module>
+    </modules>
+</extension>
+
