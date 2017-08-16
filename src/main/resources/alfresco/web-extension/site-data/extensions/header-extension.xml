@@ -7,8 +7,7 @@
 
             <customizations>
                 <customization>
-                    <targetPackageRoot>org.alfresco.share.header
-                    </targetPackageRoot>
+                    <targetPackageRoot>org.alfresco.share.header</targetPackageRoot>
                     <sourcePackageRoot>dk.magenta.header</sourcePackageRoot>
                 </customization>
             </customizations>
@@ -18,10 +17,15 @@
                     <web-framework>
                         <dojo-pages>
                             <packages>
-                                <package name="magenta" location="js/dk/magenta"/>
+                                <package name="magenta" location="resources/alfresco-header-logo-link/js/dk/magenta"/>
                             </packages>
                         </dojo-pages>
                     </web-framework>
+                </config>
+
+                <config evaluator="string-compare" condition="Logo">
+                    <!-- Change this to what you want the header logo to link to -->
+                    <href>http://magenta.dk/</href>
                 </config>
             </configurations>
         </module>
