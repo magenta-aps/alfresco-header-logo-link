@@ -25,7 +25,7 @@
 
                 <config evaluator="string-compare" condition="Logo">
                     <!-- Change this to what you want the header logo to link to -->
-                    <href>http://magenta.dk/</href>
+                    <href>http://intra/</href>
                 </config>
             </configurations>
         </module>
