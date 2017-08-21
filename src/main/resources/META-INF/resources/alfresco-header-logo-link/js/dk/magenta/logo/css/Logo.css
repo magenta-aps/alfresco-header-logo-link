@@ -1,0 +1,12 @@
+.alfresco-logo-Logo {
+   margin: 9px 16px 8px 8px;
+   &.right-border {
+      border-right: @standard-border;
+      padding-right: 14px;
+   }
+}
+
+#HEADER_LOGO .alfresco-html-Image__img {
+   height: 53px;
+    width: 171px;
+}
