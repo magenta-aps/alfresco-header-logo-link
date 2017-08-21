@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>dk.magenta</groupId>
     <artifactId>alfresco-header-logo-link</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>2.0-SNAPSHOT</version>
     <name>Alfresco Share header-logo-link</name>
     <description>Alfresco Share module to allow the header logo to link somewhere. (SDK 3.0.1 compliant)</description>
     <packaging>jar</packaging>

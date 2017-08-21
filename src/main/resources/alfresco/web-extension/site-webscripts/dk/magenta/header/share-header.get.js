@@ -1,8 +1,7 @@
 var logo = widgetUtils.findObject(model.jsonModel.widgets, "id", "HEADER_LOGO");
-logo.name = "magenta/logo/Logo";
 
 if (logo) {
-    logo.name = "magenta/logo/Logo";
+    logo.name = "roskilde_logo/logo/Logo";
 
     var configElement = config.scoped["Logo"]["href"];
     if (configElement != null) {

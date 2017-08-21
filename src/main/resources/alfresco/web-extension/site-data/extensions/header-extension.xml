@@ -2,8 +2,9 @@
     <modules>
         <module>
             <id>Header Logo Link Extensions</id>
-            <version>1.0</version>
+            <version>2.0</version>
             <auto-deploy>true</auto-deploy>
+            <auto-deploy-index>100</auto-deploy-index>
 
             <customizations>
                 <customization>
@@ -17,7 +18,8 @@
                     <web-framework>
                         <dojo-pages>
                             <packages>
-                                <package name="magenta" location="resources/alfresco-header-logo-link/js/dk/magenta"/>
+                                <!--try and make the package name unique as it can clash with other projects/modules-->
+                                <package name="roskilde_logo" location="resources/alfresco-header-logo-link/js/dk/magenta"/>
                             </packages>
                         </dojo-pages>
                     </web-framework>
